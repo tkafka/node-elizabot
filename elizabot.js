@@ -46,6 +46,7 @@
 */
 
 var elizaData = require('./elizadata');
+var ki;
 
 function ElizaBot(noRandomFlag) {
 	this.noRandom= (noRandomFlag)? true:false;
