@@ -1,8 +1,9 @@
-
 // start of file - elizadata.js
 // data for elizabot.js
 // entries prestructured as layed out in Weizenbaum's description
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
+
+"use strict";
 
 exports.elizaInitials = [
 	"How do you do.  Please tell me your problem.",

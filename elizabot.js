@@ -45,6 +45,8 @@
             changed code to work around.
 */
 
+"use strict";
+
 var elizaData = require('./elizadata');
 
 function ElizaBot(noRandomFlag) {
