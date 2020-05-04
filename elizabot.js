@@ -281,7 +281,7 @@ ElizaBot.prototype._execRule = function(k) {
 				'\nreasmb: '+rpl+
 				'\nmemflag: '+memflag);
 			if (rpl.search('^goto ', 'i')==0) {
-				ki=this._getRuleIndexByKey(rpl.substring(5));
+				var ki=this._getRuleIndexByKey(rpl.substring(5));
 				if (ki>=0) return this._execRule(ki);
 			}
 			// substitute positional params (v.1.1: work around lambda function)
